@@ -1400,6 +1400,7 @@ function loadFrames() {
     element.onclick = function(){selectFrame(frameIdentifier)}
     frameDiv.appendChild(element);
   }
+  lockFramesWithMessage(`don't click this unless you wanna watch an ad i'm not done pruning out all the ads `)
 }
 let smoothImage = undefined;
 async function selectFrame(frameIdentifier) {

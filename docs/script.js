@@ -1400,7 +1400,6 @@ function loadFrames() {
     element.onclick = function(){selectFrame(frameIdentifier)}
     frameDiv.appendChild(element);
   }
-  lockFramesWithMessage(`🔒 Unlock this frame!`)
 }
 let smoothImage = undefined;
 async function selectFrame(frameIdentifier) {
